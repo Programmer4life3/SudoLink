@@ -1,4 +1,73 @@
-body { font-family: Arial; background: #121212; color: #f0f0f0; text-align: center; }
-header { background: #1e1e1e; padding: 20px; }
-button { margin: 10px; padding: 10px 20px; cursor: pointer; }
-main { margin-top: 20px; }
+/* GENERAL RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0d0d0d;
+  color: #eee;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+/* HEADER */
+header.hero {
+  background: linear-gradient(135deg, #4b0f8a, #120078);
+  padding: 40px 20px;
+  text-align: center;
+  color: white;
+}
+
+header.hero h1 {
+  font-size: 2.6rem;
+  margin-bottom: 10px;
+}
+
+header.hero p {
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+/* NAV MENU */
+nav.menu {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: #121212;
+  padding: 15px 0;
+  margin-top: 10px;
+}
+
+nav.menu a {
+  color: #bbb;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+nav.menu a:hover {
+  background: #2a2a2a;
+  color: #fff;
+}
+
+/* MAIN CONTENT */
+.content {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-size: 1.1rem;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  background: #121212;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
