@@ -1,22 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Student Hub</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header>
-    <h1>Welcome to the Student Hub</h1>
+  <header class="hero">
+    <h1>Welcome to Student Hub</h1>
+    <p>Your interactive student center</p>
   </header>
 
-  <nav>
-    <button onclick="showGames()">Games</button>
-    <button onclick="showPolls()">Polls</button>
+  <nav class="menu">
+    <a href="#games">Games</a>
+    <a href="#polls">Polls</a>
+    <a href="#info">Info</a>
   </nav>
 
-  <main id="content">
-    <p>Choose a section to get started!</p>
-  </main>
+  <section id="main-content" class="content">
+    <p>Select a section from above to get started.</p>
+  </section>
+
+  <footer class="footer">
+    <p>Made with passion by <strong>You</strong></p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
